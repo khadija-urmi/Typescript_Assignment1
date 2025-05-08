@@ -10,7 +10,7 @@ Type inference is TypeScript's ability to automatically determine the type of a 
    let name = "Abdullah";        // TypeScript infers type as string
    let age = 10;            // TypeScript infers type as number
    let isActive = true;     // TypeScript infers type as boolean
-````
+   ``` 
 
 2. **Array Type Inference**
 
