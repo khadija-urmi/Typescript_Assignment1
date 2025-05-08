@@ -1,5 +1,5 @@
 
-#📖 **BlogPost1: Understanding Type Inference in TypeScript** 🧑‍💻
+/#📖 **BlogPost1: Understanding Type Inference in TypeScript** 🧑‍💻
 
 TypeScript is a powerful superset of JavaScript that adds static typing to the language. One of its most valuable features is **type inference**, which helps developers write cleaner and more maintainable code.
 
