@@ -1,9 +1,9 @@
 
-/#📖 **BlogPost1: Understanding Type Inference in TypeScript** 🧑‍💻
+# **BlogPost1: Understanding Type Inference in TypeScript**
 
 TypeScript is a powerful superset of JavaScript that adds static typing to the language. One of its most valuable features is **type inference**, which helps developers write cleaner and more maintainable code.
 
-## What is Type Inference? 🤔
+## What is Type Inference? 🔍
 
 Type inference is TypeScript's ability to automatically determine the type of a variable, function return value, or expression based on its usage and context. This means you don't always have to explicitly declare types - TypeScript can figure them out for you.
 
