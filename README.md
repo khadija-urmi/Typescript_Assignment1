@@ -1,9 +1,9 @@
 
-# **BlogPost1: Understanding Type Inference in TypeScript**
+# **BlogPost1: Understanding Type Inference in TypeScript**📝
 
 TypeScript is a powerful superset of JavaScript that adds static typing to the language. One of its most valuable features is **type inference**, which helps developers write cleaner and more maintainable code.
 
-## What is Type Inference? 🔍
+## What is Type Inference? 🌐
 
 Type inference is TypeScript's ability to automatically determine the type of a variable, function return value, or expression based on its usage and context. This means you don't always have to explicitly declare types - TypeScript can figure them out for you.
 
@@ -87,15 +87,15 @@ Type inference is a highly valuable feature that streamlines the development pro
 
 ---
 
-\#📖 **BlogPost2: Understanding Union and Intersection Types in TypeScript** 🔗
+# **BlogPost2: Understanding Union and Intersection Types in TypeScript**📝 🔗
 
 TypeScript provides powerful type system features that help us write more robust code. Two of the most useful type features are Union and Intersection types. Let's explore how they work and when to use them.
 
-## Union Types 🔄
+## Union Types ┃
 
 Union types allow a variable to be one of several types. We use the `|` operator to create a union type. This helps us handle different types of data in a flexible way.
 
-### Basic Union Type Example
+### Basic Union Type Example 👇
 
 ```typescript
 // A variable that can be either a string or a number
@@ -130,7 +130,7 @@ type typeAB = typeA & typeB;
 
 The `typeAB` will have all properties from both `typeA` and `typeB`.
 
-### Basic Intersection Type Example
+### Basic Intersection Type Example 👇
 
 ```typescript
 type Employee = {
@@ -153,7 +153,7 @@ const manager: ManagerEmployee = {
 };
 ```
 
-## When to Use Each ⚖️
+## When to Use Each ⚡
 
 ### Use Union Types When:
 
@@ -169,7 +169,7 @@ const manager: ManagerEmployee = {
 3. Creating complex types from simpler ones
 4. Implementing mixins
 
-## Conclusion 🏁
+## Conclusion 🎯
 
 Union and Intersection types are powerful features in TypeScript that help us create more flexible and type-safe code. **Union types** are great for handling situations where a value could be one of several types. For instance, a user ID could be either a string or a number, and a function that accepts such a value can work with both. **Intersection types** allow you to create complex objects by combining simpler ones, making it useful when you need to extend or add functionality to existing types.
 
